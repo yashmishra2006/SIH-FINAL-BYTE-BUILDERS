@@ -1,0 +1,61 @@
+.homepage-container {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d2b48c;
+}
+
+h1 {
+  text-align: center;
+  color: #333; /* Dark Gray */
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #333; /* Dark Gray for consistency */
+  font-size: 1.75rem;
+  margin-bottom: 20px; /* Consistent spacing */
+}
+
+.sections-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.events-section,
+.latest-museums-section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd; /* Light Gray Border */
+  border-radius: 12px;
+  background-color: #ebdaba; /* White Background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.events-section:hover,
+.latest-museums-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.featured-museums-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff; /* Dark Gray Background */
+  color: #333; /* White Text */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-museums-section h2 {
+  color: #fff; /* White Text */
+  border: none; /* Removed border */
+  margin: 0; 
+}
+
+.featured-museums-section p {
+  color: #000; 
+}

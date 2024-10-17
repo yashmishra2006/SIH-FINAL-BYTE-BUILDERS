@@ -1,0 +1,45 @@
+.booking-confirmation-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-confirmation-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.booking-confirmation-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.booking-confirmation-container strong {
+  color: #333;
+}
+
+.book-tickets-button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.book-tickets-button:hover {
+  background-color: #0056b3;
+}

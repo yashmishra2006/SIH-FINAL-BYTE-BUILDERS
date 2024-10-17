@@ -1,0 +1,36 @@
+.museum-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .museum-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .museum-card-heading {
+    font-size: 1.25em;
+    margin-top: 8px;
+  }
+  
+  .museum-card-location {
+    font-size: 1em;
+    color: #888;
+    margin: 4px 0;
+  }
+  
+  .museum-card-type {
+    font-size: 0.9em;
+    color: #666;
+    margin: 4px 0;
+  }
+  
+  .museum-card-writeup {
+    font-size: 1em;
+    color: #333;
+  }
+  

@@ -1,0 +1,11 @@
+.featured-museums-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between cards as needed */
+  padding: 20px; /* Optional: Add padding around the list */
+}
+
+.featured-museums-list .museum-card {
+  flex: 1 1 calc(33.333% - 20px); /* Adjust to fit 3 cards per row, accounting for gap */
+  box-sizing: border-box;
+}

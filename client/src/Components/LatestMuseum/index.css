@@ -1,0 +1,18 @@
+.latest-museum-container {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .latest-museum-name {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  .latest-museum-update {
+    font-size: 1em;
+    color: #666;
+  }
+  

@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #987554; /* Updated background color */
+  color: #ebdcdc; /* Adjusted text color for better contrast */
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd; /* Optional: Add a subtle border for separation */
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav a {
+  color: #fcfafa; /* Adjusted link color to match header text color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease; /* Smooth transition for hover effect */
+  
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-profile .user-icon {
+  height: 30px;
+  width: 30px; /* Ensures the icon is circular */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image fits well */
+}
+
+.user-profile .user-name {
+  font-weight: bold;
+  color: #333; /* Ensure text color matches header */
+}

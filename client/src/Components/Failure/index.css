@@ -1,0 +1,39 @@
+/* Failure.css */
+
+.failure-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8d7da; /* Light red background for error */
+    color: #721c24; /* Dark red text color */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .failure-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .failure-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .failure-container button {
+    background-color: #f5c6cb; /* Light red button background */
+    color: #721c24; /* Dark red text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .failure-container button:hover {
+    background-color: #f1b0b7; /* Slightly darker red on hover */
+  }
+  

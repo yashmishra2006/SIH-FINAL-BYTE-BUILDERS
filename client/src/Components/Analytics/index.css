@@ -1,0 +1,35 @@
+.analytics-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .analytics-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .analytics-page section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .analytics-page section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .analytics-page button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .analytics-page button:hover {
+    background-color: #0056b3;
+  }
+  
